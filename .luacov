@@ -1,0 +1,9 @@
+return {
+  exclude = {
+    "spec$",
+    "spec%/.+$",
+  },
+  modules = {
+    ["khaosdata-livr-rules.*"] = "src",
+  },
+}
